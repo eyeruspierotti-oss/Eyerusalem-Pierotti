@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eyerusalem Pierotti — Plant Molecular Biologist</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Mono:wght@300;400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ═══ MOBILE HEADER ═══ -->
+<header class="mobile-header">
+  <span class="mobile-header-name">Eyerusalem Pierotti</span>
+  <button class="hamburger" id="menuBtn" aria-label="Open navigation" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+</header>
+
+<!-- ═══ MOBILE NAV DRAWER ═══ -->
+<nav class="mobile-nav-drawer" id="mobileNav" aria-hidden="true">
+  <a class="nav-link" href="#about"        onclick="closeMenu()">About</a>
+  <a class="nav-link" href="#research"     onclick="closeMenu()">Research</a>
+  <a class="nav-link" href="#education"    onclick="closeMenu()">Education</a>
+  <a class="nav-link" href="#publications" onclick="closeMenu()">Publications</a>
+  <a class="nav-link" href="#cv"           onclick="closeMenu()">CV</a>
+  <a class="nav-link" href="#contact"      onclick="closeMenu()">Contact</a>
+  <div class="drawer-social">
+    <a href="#">ORCID</a>
+    <a href="#">ResearchGate</a>
+    <a href="#">Google Scholar</a>
+    <a href="#">LinkedIn</a>
+  </div>
+</nav>
+
+<!-- ═══ SITE WRAPPER ═══ -->
+<div class="site-wrapper">
+
+  <!-- ─── SIDEBAR (desktop) ─── -->
+  <aside class="sidebar">
+    <div class="profile-photo">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="12" cy="8" r="4"/>
+        <path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>
+      </svg>
+    </div>
+    <div class="photo-hint">add photo</div>
+    <div class="sidebar-name">Eyerusalem<br>Pierotti</div>
+    <div class="sidebar-title">Plant Molecular Biologist</div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#education">Education</a>
+      <a href="#publications">Publications</a>
+      <a href="#cv">CV</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="sidebar-footer">
+      <div class="social-links">
+        <a href="#">ORCID</a>
+        <a href="#">ResearchGate</a>
+        <a href="#">Google Scholar</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ─── MAIN CONTENT ─── -->
+  <main>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="section-label">About</div>
+      <h2>Plant–microbe interactions at the molecular scale.</h2>
+      <p class="hero-intro">
+        I am a master's candidate in plant molecular biology, currently completing my thesis internship on plant–PGPM (Plant Growth-Promoting Microorganism) interactions.
+      </p>
+      <p>
+        My work sits at the intersection of plant immunity, rhizosphere ecology, and molecular signalling. I am interested in understanding how beneficial microorganisms modulate plant developmental and defence programmes — from the molecular dialogue at the root interface to the downstream transcriptional responses that shape plant fitness.
+      </p>
+      <p>
+        I am based at <strong>[Your Institution]</strong>, working in the <strong>[Lab Name]</strong> under the supervision of <strong>[Supervisor Name]</strong>. Prior to my current position, I completed [previous degree/experience — add here].
+      </p>
+    </section>
+
+    <!-- RESEARCH INTERESTS -->
+    <section id="research">
+      <div class="section-label">Research</div>
+      <h2>Interests &amp; Focus Areas</h2>
+      <div class="interests-grid">
+        <div class="interest-card">
+          <h3>Plant–PGPM Molecular Dialogue</h3>
+          <p>Signalling mechanisms underlying beneficial plant–microorganism interactions, including MAMP perception and systemic resistance induction.</p>
+        </div>
+        <div class="interest-card">
+          <h3>Rhizosphere Microbiology</h3>
+          <p>Root exudate composition, microbiome recruitment, and the functional ecology of growth-promoting bacteria and fungi.</p>
+        </div>
+        <div class="interest-card">
+          <h3>Plant Molecular Biology</h3>
+          <p>Transcriptional regulation of defence and growth pathways; hormone crosstalk (SA, JA, auxin) in the context of plant–microbe symbiosis.</p>
+        </div>
+        <div class="interest-card">
+          <h3>Sustainable Agriculture</h3>
+          <p>Translational applications of PGPM research toward reduced agrochemical dependence and improved crop resilience under abiotic stress.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education">
+      <div class="section-label">Education</div>
+      <h2>Academic Background</h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">2023 — Present</div>
+            <div class="timeline-degree">MSc in Plant Molecular Biology</div>
+            <div class="timeline-institution">[University Name], [Country]</div>
+            <div class="timeline-detail">Thesis: [Your thesis title — add here]</div>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-date">20XX — 20XX</div>
+            <div class="timeline-degree">BSc in [Field]</div>
+            <div class="timeline-institution">[University Name], [Country]</div>
+            <div class="timeline-detail">Dissertation: [Title, if applicable]</div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="publications">
+      <div class="section-label">Publications</div>
+      <h2>Publications &amp; Preprints</h2>
+      <div class="pub-list">
+
+        <div class="pub-item">
+          <div class="pub-type">Journal Article</div>
+          <div class="pub-title">[Article title — replace with your publication]</div>
+          <div class="pub-authors"><strong>Pierotti, E.</strong>, Co-author A., Co-author B.</div>
+          <div class="pub-journal"><em>Journal Name</em>, Volume(Issue), Year. DOI: 10.XXXX/XXXXX</div>
+        </div>
+
+        <div class="pub-placeholder">
+          <p>Additional publications and preprints will appear here. Remove this block once entries are added above.</p>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv">
+      <div class="section-label">CV</div>
+      <h2>Curriculum Vitae</h2>
+      <div class="cv-block">
+        <div class="cv-text">
+          <p>My full CV includes detailed information on research experience, technical skills, coursework, and academic service.</p>
+          <p style="color: var(--text-muted); font-size: 13px;">Last updated: [Month, Year]</p>
+        </div>
+        <a class="cv-download" href="cv_eyerusalem_pierotti.pdf" download>&#8595;&nbsp;Download CV</a>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="section-label">Contact</div>
+      <h2>Get in Touch</h2>
+      <p style="margin-bottom: 1.5rem;">I welcome correspondence regarding research collaborations, questions about my work, or academic opportunities.</p>
+      <div class="contact-grid">
+        <div class="contact-item">
+          <div class="contact-label">Email</div>
+          <div class="contact-value"><a href="mailto:your.email@institution.edu">your.email@institution.edu</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-label">Affiliation</div>
+          <div class="contact-value">[Lab / Department Name]<br>[University], [Country]</div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-label">ORCID</div>
+          <div class="contact-value"><a href="https://orcid.org/0000-0000-0000-0000" target="_blank">0000-0000-0000-0000</a></div>
+        </div>
+        <div class="contact-item">
+          <div class="contact-label">Response time</div>
+          <div class="contact-value" style="color: var(--text-muted); font-size: 13px;">I aim to respond within 3–5 working days.</div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div><!-- end .site-wrapper -->
+
+<script>
+  var menuBtn   = document.getElementById('menuBtn');
+  var mobileNav = document.getElementById('mobileNav');
+  var isOpen    = false;
+
+  function openMenu() {
+    isOpen = true;
+    mobileNav.classList.add('open');
+    menuBtn.classList.add('open');
+    menuBtn.setAttribute('aria-expanded', 'true');
+    mobileNav.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    isOpen = false;
+    mobileNav.classList.remove('open');
+    menuBtn.classList.remove('open');
+    menuBtn.setAttribute('aria-expanded', 'false');
+    mobileNav.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  menuBtn.addEventListener('click', function() { isOpen ? closeMenu() : openMenu(); });
+  document.addEventListener('keydown', function(e) { if (e.key === 'Escape' && isOpen) closeMenu(); });
+</script>
+</body>
+</html>
